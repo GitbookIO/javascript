@@ -1,5 +1,7 @@
 # Summary
 
 * [Strings](strings/README.md)
-    * [Basics](strings/basics.md)
+    * [Creation](strings/create.md)
+    * [Concatenation](strings/concat.md)
+    * [Splitting](strings/split.md)
 
