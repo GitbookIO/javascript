@@ -12,7 +12,6 @@ Add up the different names so that the `fullName` variable. Contains John's comp
 
 ```js
 var firstName = "John";
-var middleName = "James";
 var lastName = "Smith";
 
 var fullName =
@@ -20,14 +19,13 @@ var fullName =
 
 ```js
 var firstName = "John";
-var middleName = "James";
 var lastName = "Smith";
 
-var fullName = firstName + " " + middleName + " " + fullName;
+var fullName = firstName + " " + lastName;
 ```
 
 ```js
-assert(fullname === 'John James Smith');
+assert(fullName === 'John Smith');
 ```
 
 ---
