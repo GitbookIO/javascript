@@ -27,3 +27,26 @@ assert(str === 'abc');
 ```
 
 ---
+
+### Transforming objects to strings with .toString()
+
+Most javascript objects such as `Number`s can be transformed into strings using the `.toString()` method.
+
+---
+
+Create a variable named `numstr` that is a string transformed from the `num` variable.
+
+```js
+var num = 27;
+```
+
+```js
+var num = 27;
+var numstr = 27.toString();
+```
+
+```js
+assert(numstr === '27');
+```
+
+---
