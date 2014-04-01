@@ -10,3 +10,20 @@ var otherStr = "Another nice string";
 
 **Note:** Strings can not be substracted, multiplied or divided.
 
+---
+
+Create a variable named `str` set to the value `"abc"`.
+
+```js
+
+```
+
+```js
+var str = 'abc';
+```
+
+```js
+assert(str === 'abc');
+```
+
+---
