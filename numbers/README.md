@@ -4,4 +4,4 @@ JavaScript has only one type of numbers, it does not define different types of n
 
 There is nothing magical or strange going on with these. You define variables and set their values to any number type.
 
-In this chapter, we'll learn how to create number and do some operations on them (like additions, subtractions, ...).
+In this chapter, we'll learn how to create number and do some operations on them (like additions and subtractions).

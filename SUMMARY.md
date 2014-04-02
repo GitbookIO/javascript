@@ -7,4 +7,5 @@
 * [Numbers](numbers/README.md)
     * [Creation](numbers/create.md)
     * [Basic Operators](numbers/operators.md)
+    * [Advanced Operators](numbers/advanced.md)
 
