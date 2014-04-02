@@ -1,8 +1,8 @@
 # Creation
 
-Create a number is easy, it's done just like any other variable type using the ```var``` keyword.
+Creating a number is easy, it can be done just like for any other variable type using the ```var``` keyword.
 
-Numbers can be created from an absolute value:
+Numbers can be created from a constant value:
 
 ```
 // This is a float:
