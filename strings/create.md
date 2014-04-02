@@ -1,5 +1,7 @@
 ## Creation
 
+You define strings in JavaScript by enclosing the text in single quotes or double quotes:
+
 ```js
 // Single quotes can be used
 var str = 'Our lovely string';
@@ -24,29 +26,6 @@ var str = 'abc';
 
 ```js
 assert(str === 'abc');
-```
-
----
-
-### Transforming objects to strings with .toString()
-
-Most javascript objects such as `Number`s can be transformed into strings using the `.toString()` method.
-
----
-
-Create a variable named `numstr` that is a string transformed from the `num` variable.
-
-```js
-var num = 27;
-```
-
-```js
-var num = 27;
-var numstr = 27.toString();
-```
-
-```js
-assert(numstr === '27');
 ```
 
 ---
