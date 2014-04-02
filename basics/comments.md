@@ -6,14 +6,14 @@ In Javascript, comments can be written in 2 different ways:
 
 * Line starting with `//`:
 
-```js
+```javascript
 // This is a comment, it will be ignored by the interpreter
 var a = "this is a variable defined in a statement";
 ```
 
 * Section of code starting by `/*`and finishing by `*/`, this method is used for multi-lines comments:
 
-```js
+```javascript
 /*
 This is a multi-lines comment,
 it will be ignored by the interpreter

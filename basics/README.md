@@ -8,7 +8,7 @@ A statement is more casually (and commonly) known as a *line of code*. That's be
 
 Here is a simple example:
 
-```js
+```javascript
 var hello = "Hello";
 var world = "World";
 
