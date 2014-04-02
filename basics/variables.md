@@ -1,6 +1,6 @@
 # Variables
 
-The first step towards understanding programming is looking back at algebra. If you remember from school, algebra starts with writing terms such as the following.
+The first step towards really understanding programming is looking back at algebra. If you remember from school, algebra starts with writing terms such as the following.
 
 ```
 3 + 5 = 8
