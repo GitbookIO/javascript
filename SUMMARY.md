@@ -1,7 +1,10 @@
 # Summary
 
 * [Variables](variables/README.md)
-    * [Numbers](variables/numbers.md)
+    * [Types](variables/types.md)
+* [Numbers](numbers/README.md)
+    * [Creation](numbers/create.md)
+    * [Basic Operators](numbers/operators.md)
 * [Strings](strings/README.md)
     * [Creation](strings/create.md)
     * [Concatenation](strings/concat.md)

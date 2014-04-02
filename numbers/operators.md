@@ -1,0 +1,39 @@
+# Operators
+
+You can apply operations to numbers using some basic operators like: 
+
+* **Addition**: ```c = a + b```
+* **Subtraction**: ```c = a - b```
+* **Multiplication**: ```c = a * b```
+* **Division**: ```c = a / b```
+
+You can use parentheses just like in math to separate calcul execution.
+
+
+---
+
+Create a variable `x` which equals to the addition of `a` and `b` divided by `c`and finally multiplicated by `d`.
+
+```js
+var a = 2034547;
+var b = 1.567;
+var c = 6758.768;
+var d = 45084;
+
+var x =
+```
+
+```js
+var a = 2034547;
+var b = 1.567;
+var c = 6758.768;
+var d = 45084;
+
+var x = ((a + b) / c) * d;
+```
+
+```js
+assert(x == (((a + b) / c) * d));
+```
+
+---
