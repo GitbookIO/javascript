@@ -16,4 +16,24 @@ The most common ones are:
 
 * **Objects**: a representation of a more complex object
 
-JavaScript is a “loosely typed” language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the ```var``` keyword to indicate that you are declaring a variable, and the interpreter will work out what data type you are using from the context, and use of quotes.
+JavaScript is a *“loosely typed”* language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the ```var``` keyword to indicate that you are declaring a variable, and the interpreter will work out what data type you are using from the context, and use of quotes.
+
+
+
+---
+
+Create a variable named `a` using the keyword `var`.
+
+```js
+
+```
+
+```js
+var a;
+```
+
+```js
+a;
+```
+
+---
