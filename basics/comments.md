@@ -34,8 +34,10 @@ or I'll throw an error
 ```
 
 ```js
-/*Mark me as a comment
-or I'll throw an error*/
+/*
+Mark me as a comment
+or I'll throw an error
+*/
 ```
 
 ```js
