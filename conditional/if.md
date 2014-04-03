@@ -31,6 +31,8 @@ var message = 'this is ' + country + ', the weather is ' +
             'currency is ' + currency;
 ```
 
+**Node:** Conditions can also be nested.
+
 ---
 
 Fill up the value of `name` to validate the condition.
