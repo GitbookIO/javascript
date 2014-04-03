@@ -20,3 +20,6 @@
 * [Loops](loops/README.md)
     * [For](loops/for.md)
     * [While](loops/while.md)
+* [Functions](functions/README.md)
+    * [Declare](functions/declare.md)
+    * [Higher order](functions/higher_order.md)
