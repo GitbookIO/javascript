@@ -25,11 +25,11 @@ var c =
 ```js
 var x = 10;
 
-var c = (x--) % 3;
+var c = (--x) % 3;
 ```
 
 ```js
-assert(c == 1);
+assert(c == 0);
 ```
 
 ---
