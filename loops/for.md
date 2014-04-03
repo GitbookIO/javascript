@@ -2,7 +2,7 @@
 
 The easiest form of a loop is the for statement. This one has a syntax that is similar to an if statement, but with more options:
 
-```
+```javascript
 for(condition; end condition; change){
     // do it, do it now
 }
