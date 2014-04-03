@@ -16,3 +16,4 @@
     * [If](conditional/if.md)
     * [Else](conditional/else.md)
     * [Comparators](conditional/comparators.md)
+    * [Concatenate](conditional/concatenate.md)
