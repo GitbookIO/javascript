@@ -24,11 +24,11 @@ for(var i = 0; i < 10; i = i + 1){
 Create using a for-loop a variable named `message` which equals the concatenation of integers (1, 2, 3, ...) from 0 to 100.
 
 ```js
-var message = ""
+var message = "";
 ```
 
 ```js
-var message = ""
+var message = "";
 
 for(var i = 0; i < 100; i++){
     message = message + i;
