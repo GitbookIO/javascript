@@ -8,19 +8,19 @@ var weather;
 var food;
 var currency;
 
-if(country === 'England'){
+if(country === 'England') {
     weather = 'horrible';
     food = 'filling';
     currency = 'pound sterling';
 }
 
-if(country === 'France'){
+if(country === 'France') {
     weather = 'nice';
     food = 'stunning, but hardly ever vegetarian';
     currency = 'funny, small and colourful';
 }
 
-if(country === 'Germany'){
+if(country === 'Germany') {
     weather = 'average';
     food = 'wurst thing ever';
     currency = 'funny, small and colourful';
