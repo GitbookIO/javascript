@@ -10,3 +10,4 @@
     * [Advanced Operators](numbers/advanced.md)
 * [Strings](strings/README.md)
     * [Creation](strings/create.md)
+    * [Concatenation](strings/concat.md)
