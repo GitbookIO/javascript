@@ -17,3 +17,6 @@
     * [Else](conditional/else.md)
     * [Comparators](conditional/comparators.md)
     * [Concatenate](conditional/concatenate.md)
+* [Loops](loops/README.md)
+    * [For](loops/for.md)
+    * [While](loops/while.md)
