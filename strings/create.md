@@ -1,4 +1,4 @@
-## Creation
+# Creation
 
 You can define strings in JavaScript by enclosing the text in single quotes or double quotes:
 
