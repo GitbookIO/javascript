@@ -34,8 +34,8 @@ var buildMultiplier = function(x) {
     }
 }
 
-var double = buildMultilplier(2);
-var triple = buildMultilplier(3);
+var double = buildMultiplier(2);
+var triple = buildMultiplier(3);
 
 double(3); // => 6
 triple(3); // => 9
