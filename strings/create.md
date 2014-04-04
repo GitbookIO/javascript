@@ -17,7 +17,7 @@ In Javascript, Strings can contain UTF-8 characters:
 ```
 
 
-**Note:** Strings can not be substracted, multiplied or divided.
+**Note:** Strings can not be subtracted, multiplied or divided.
 
 ---
 
