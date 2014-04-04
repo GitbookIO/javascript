@@ -32,7 +32,7 @@ do {
 
 ---
 
-Create using a while-loop a variable named `message` which equals the concatenation of integers (1, 2, 3, ...) as long as its length (`message.length`) is inferior to 100.
+Create using a while-loop a variable named `message` which equals the concatenation of integers (0, 1, 2, ...) as long as its length (`message.length`) is less than 100.
 
 ```js
 var message = "";
