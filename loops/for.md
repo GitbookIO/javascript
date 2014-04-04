@@ -21,7 +21,7 @@ for(var i = 0; i < 10; i = i + 1){
 
 ---
 
-Create using a for-loop a variable named `message` which equals the concatenation of integers (1, 2, 3, ...) from 0 to 100.
+Create using a for-loop a variable named `message` which equals the concatenation of integers (0, 1, 2, ...) from 0 to 99.
 
 ```js
 var message = "";
