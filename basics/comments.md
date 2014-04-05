@@ -1,6 +1,6 @@
 # Comments
 
-Comments are statements that will not be executed by the interpreter, comments are used to mark anotations for others programmers or small descriptions of what your code does, thus making it easier for others to understand what your code does.
+Comments are statements that will not be executed by the interpreter, comments are used to mark annotations for other programmers or small descriptions of what your code does, thus making it easier for others to understand what your code does.
 
 In Javascript, comments can be written in 2 different ways:
 
