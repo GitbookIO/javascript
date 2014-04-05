@@ -8,7 +8,7 @@ if (country === "France") {
 }
 ```
 
-The conditional part is the country followed by the three equal signs (`===`). Three equal signs mean that the condition tests if the variable country has the value you test against but also the correct variable (data)type. You can test conditions with double equal signs, too, but that would mean that `if(x == 5)` would be true for x being 5 and x being “5”. Depending on what your program is doing, this could make quite a difference.
+The conditional part is the variable `country` followed by the three equal signs (`===`). Three equal signs tests if the variable `country` has both the correct value (`France`) and also the correct type (`String`). You can test conditions with double equal signs, too, however a conditional such as `if (x == 5)` would then return true for both `var x = 5;` and `var x = "5";`. Depending on what your program is doing, this could make quite a difference.  It is highly recommended as a best practice that you always compare equality with three equal signs (`===` and `!==`) instead of two (`==` and `!=`).
 
 Other conditional test:
 
@@ -21,7 +21,7 @@ Other conditional test:
 
 ---
 
-Add a condition to change the value of `a` to 10 if `x` is bigger than 5.
+Add a condition to change the value of `a` to the number 10 if `x` is bigger than 5.
 
 ```js
 var x = 6;
@@ -40,7 +40,7 @@ if (x > 5) {
 ```
 
 ```js
-assert(a == 10);
+assert(a === 10);
 ```
 
 ---
