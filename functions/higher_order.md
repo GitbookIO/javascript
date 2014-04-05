@@ -4,14 +4,14 @@ Higher order functions are functions that manipulate other functions.
 For example, a function can take other functions as arguments and/or produce a function as its return value.
 Such *fancy* functional techniques are powerful constructs available to you in JavaScript and other high-level languages like python, lisp, etc.
 
-We will now create two simple functions `add_2` and `double` and higher order 
-function called `map(f,list)` which applies the function `f` (the first argument)
+We will now create two simple functions `add_2` and `double` and higher order
+function called `map(func, list)` which applies the function `func` (the first argument)
 to each of the elements in the array `list` (the second argument).
 
 ```javascript
-// Define two simple functions 
-var add_2 = function(x) { 
-    return x + 2; 
+// Define two simple functions
+var add_2 = function(x) {
+    return x + 2;
 };
 var double = function(x) {
     return 2 * x;
@@ -20,8 +20,8 @@ var double = function(x) {
 // map is cool function that accepts 2 arguments:
 //  func    the function to call
 //  list    a array of values to call func on
-var map = function(func, list) {    
-    var output=[];              // output list 
+var map = function(func, list) {
+    var output=[];              // output list
     for(idx in list) {
         output.push( func(list[idx]) );
     }
@@ -29,14 +29,14 @@ var map = function(func, list) {
 }
 
 
-// We use map to apply a function to an entire list 
+// We use map to apply a function to an entire list
 // of inputs to "map" them to a list of corresponding outputs
 map(add_2, [5,6,7]) // => [7, 8, 9]
 map(double, [5,6,7]) // => [10, 12, 14]
 ```
 
-The functions in the above example were intentionally simple, 
-and serves to illustrate that passing functions as arguments 
+The functions in the above example were intentionally simple,
+and serves to illustrate that passing functions as arguments
 to other functions allows for flexibility when building things.
 
 For example, if we notice that we use the invocations `map(add_2, ...)` and `map(double, ...)` very often in our code, we could decide we want to create two special-purpse list processors that have the desired operation baked into them. Using function composition, we could do this as follows:
@@ -56,7 +56,7 @@ Now let's create a function called `buildProcessor` that takes a function `func`
 and returns a `func`-processor, that is, a function that applies `func` to each input in list.
 
 ```javascript
-// a function that generates a list processor that performs 
+// a function that generates a list processor that performs
 var buildProcessor = function(func) {
     var process_func = function(list) {
         return map(func, list);
