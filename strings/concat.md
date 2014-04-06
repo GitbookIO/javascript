@@ -8,7 +8,7 @@ var bigStr = 'Hi ' + 'JS strings are nice ' + 'and ' + 'easy to add';
 
 ---
 
-Add up the different names so that the `fullName` variable. Contains John's complete name.
+Add up the different names so that the `fullName` variable contains John's complete name.
 
 ```js
 var firstName = "John";
