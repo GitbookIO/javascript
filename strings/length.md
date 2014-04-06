@@ -17,7 +17,7 @@ Store in the variable named `size` the length of `str`.
 ```js
 var str = "Hello World";
 
-var size = 
+var size =
 ```
 
 ```js
@@ -27,7 +27,7 @@ var size = str.length;
 ```
 
 ```js
-assert(size == str.length);
+assert(size === str.length);
 ```
 
 ---

@@ -41,7 +41,7 @@ var message2 = ""
 for(var i = 0; i < 100; i++){
     message2 = message2 + i;
 }
-assert(message == message2);
+assert(message === message2);
 ```
 
 ---

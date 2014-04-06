@@ -36,7 +36,7 @@ var y = a;
 ```
 
 ```js
-assert(x == 10 && y == a);
+assert(x === 10 && y === a);
 ```
 
 ---

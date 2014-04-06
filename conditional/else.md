@@ -30,11 +30,11 @@ if(country === 'England') {
 Fill up the value of `name` to validate the `else` condition.
 
 ```js
-var name = 
+var name =
 
-if (name == "John") {
-    
-} else if (name == "Aaron") {
+if (name === "John") {
+
+} else if (name === "Aaron") {
     // Valid this condition
 }
 ```
@@ -42,15 +42,15 @@ if (name == "John") {
 ```js
 var name = "Aaron";
 
-if (name == "John") {
-    
-} else if (name == "Aaron") {
+if (name === "John") {
+
+} else if (name === "Aaron") {
     // Valid this condition
 }
 ```
 
 ```js
-assert(name == "Aaron");
+assert(name === "Aaron");
 ```
 
 ---
