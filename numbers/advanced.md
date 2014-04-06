@@ -19,7 +19,7 @@ Define a variable `c` as the modulus of the decremented value of `x` by 3.
 ```js
 var x = 10;
 
-var c = 
+var c =
 ```
 
 ```js
@@ -29,7 +29,7 @@ var c = (--x) % 3;
 ```
 
 ```js
-assert(c == 0);
+assert(c === 0);
 ```
 
 ---

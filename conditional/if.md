@@ -26,8 +26,8 @@ if(country === 'Germany') {
     currency = 'funny, small and colourful';
 }
 
-var message = 'this is ' + country + ', the weather is ' + 
-            weather + ', the food is ' + food + ' and the ' + 
+var message = 'this is ' + country + ', the weather is ' +
+            weather + ', the food is ' + food + ' and the ' +
             'currency is ' + currency;
 ```
 
@@ -38,23 +38,23 @@ var message = 'this is ' + country + ', the weather is ' +
 Fill up the value of `name` to validate the condition.
 
 ```js
-var name = 
+var name =
 
-if (name == "John") {
-    
+if (name === "John") {
+
 }
 ```
 
 ```js
 var name = "John";
 
-if (name == "John") {
-    
+if (name === "John") {
+
 }
 ```
 
 ```js
-assert(name == "John");
+assert(name === "John");
 ```
 
 ---

@@ -56,7 +56,7 @@ while (message2.length < 100) {
     message2 = message2 + i2;
     i2 = i2 + 1;
 }
-assert(message == message2);
+assert(message === message2);
 ```
 
 ---

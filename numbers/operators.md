@@ -33,7 +33,7 @@ var x = ((a + b) / c) * d;
 ```
 
 ```js
-assert(x == (((a + b) / c) * d));
+assert(x === (((a + b) / c) * d));
 ```
 
 ---
