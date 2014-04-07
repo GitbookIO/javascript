@@ -63,7 +63,7 @@ var buildProcessor = function(func) {
     }
     return process_func;
 }
-// calling buildProcessor returns a functoin which is called with a list input
+// calling buildProcessor returns a function which is called with a list input
 
 
 // using buildProcessor we could generate the add_2 and double list processors as follows:
