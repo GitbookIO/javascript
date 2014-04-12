@@ -1,6 +1,6 @@
 # Else
 
-There is also an `else` clause that will be applied every time the first condition isn’t true. This is very powerful if you want to react to any value, but single out one in particular for special treatment:
+There is also an `else` clause that will be applied when the first condition isn’t true. This is very powerful if you want to react to any value, but single out one in particular for special treatment:
 
 ```javascript
 var umbrellaMandatory;
