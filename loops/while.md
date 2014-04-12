@@ -1,6 +1,6 @@
 # While Loop
 
-While Loops can execute a block of code as long as a specified condition is true.
+While Loops repetitively execute a block of code as long as a specified condition is true.
 
 ```javascript
 while(condition){
@@ -8,7 +8,7 @@ while(condition){
 }
 ```
 
-For example, The loop in this example will continue to run as long as the variable i is less than 5:
+For example, the loop in this example will repetitively execute its block of code as long as the variable i is less than 5:
 
 ```javascript
 var i = 0, x = "";
@@ -18,7 +18,7 @@ while (i < 5) {
 }
 ```
 
-The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true:
+The Do/While Loop is a variant of the while loop. This loop will execute the code block once before checking if the condition is true. It then repeats the loop as long as the condition is true:
 
 ```javascript
 do {
@@ -32,7 +32,7 @@ do {
 
 ---
 
-Create using a while-loop a variable named `message` which equals the concatenation of integers (0, 1, 2, ...) as long as its length (`message.length`) is less than 100.
+Using a while-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) as long as its length (`message.length`) is less than 100.
 
 ```js
 var message = "";
