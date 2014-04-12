@@ -74,7 +74,7 @@ process_double([5,6,7]) // => [10, 12, 14]
 
 
 Let's look at another example.
-We'll create a function called `buildMultiplier` that takes a number `x` as input and returns a function that multiplies it's argument by x :
+We'll create a function called `buildMultiplier` that takes a number `x` as input and returns a function that multiplies its argument by `x` :
 
 ```javascript
 var buildMultiplier = function(x) {
