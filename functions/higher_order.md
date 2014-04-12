@@ -33,11 +33,9 @@ map(add_2, [5,6,7]) // => [7, 8, 9]
 map(double, [5,6,7]) // => [10, 12, 14]
 ```
 
-The functions in the above example were intentionally simple,
-and serves to illustrate that passing functions as arguments
-to other functions allows for flexibility when building things.
+The functions in the above example are simple. However, when passed as arguments to other functions, they can be composed in unforeseen ways to build more complex functions.
 
-For example, if we notice that we use the invocations `map(add_2, ...)` and `map(double, ...)` very often in our code, we could decide we want to create two special-purpse list processors that have the desired operation baked into them. Using function composition, we could do this as follows:
+For example, if we notice that we use the invocations `map(add_2, ...)` and `map(double, ...)` very often in our code, we could decide we want to create two special-purpse list processing functions that have the desired operation baked into them. Using function composition, we could do this as follows:
 
 ```javascript
 process_add_2 = function(list) {
