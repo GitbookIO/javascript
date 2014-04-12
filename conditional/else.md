@@ -12,7 +12,7 @@ if(country === 'England'){
 }
 ```
 
-The `else` clause can be join with another `if`, lets remake the example from the previous article:
+The `else` clause can be join with another `if`. Lets remake the example from the previous article:
 
 ```javascript
 if(country === 'England') {
