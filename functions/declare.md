@@ -8,6 +8,8 @@ function double(x) {
 }
 ```
 
+>*Note:* the function above **may** be referenced before it has been defined.
+
 Functions are also values in JavaScript; they can be stored in variables (just like numbers, strings, etc ...) and given to other functions as arguments :
 
 ```javascript
@@ -15,6 +17,8 @@ var double = function(x) {
     return 2 * x;
 };
 ```
+
+>*Note:* the function above **may not** be referenced before it is defined, just like any other variable. 
 
 ---
 
