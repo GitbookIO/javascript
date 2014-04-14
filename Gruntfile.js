@@ -8,16 +8,13 @@ module.exports = function (grunt) {
     grunt.initConfig({
         'gitbook': {
             development: {
-                output: path.join(__dirname, ".grunt/gitbook"),
                 input: "./",
-                title: "Learn Javascript",
-                description: "Interactive online course for learning Javascript.",
                 github: "GitbookIO/javascript"
             }
         },
         'gh-pages': {
             options: {
-                base: '.grunt/gitbook'
+                base: '_book'
             },
             src: ['**']
         },
