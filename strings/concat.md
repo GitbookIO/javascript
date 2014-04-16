@@ -25,7 +25,7 @@ var fullName = firstName + " " + lastName;
 ```
 
 ```js
-assert(fullName === 'John Smith');
+alert(fullName === 'John Smith');
 ```
 
 ---
