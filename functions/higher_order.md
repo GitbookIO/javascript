@@ -90,7 +90,7 @@ triple(3); // => 9
 
 ---
 
-Define a function named `negate` that takes `add1` as argument and returns a function, that returns the opposite of the value returned by `add`. (Things get a bit more complicated ;) )
+Define a function named `negate` that takes `add1` as argument and returns a function, that returns the negation of the value returned by `add1`. (Things get a bit more complicated ;) )
 
 ```js
 var add1 = function (x) {
