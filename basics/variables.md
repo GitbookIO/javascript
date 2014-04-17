@@ -43,7 +43,7 @@ The same is true for programming languages. In programming, variables are contai
 
 Let's check out how it works in Javascript, The following code defines two variables, computes the result of adding the two and defines this result as a value of a third variable.
 
-```
+```js
 var x = 5;
 var y = 6;
 var result = x + y;
