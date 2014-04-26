@@ -16,7 +16,7 @@ for(var i = 0; i < 10; i = i + 1){
 }
 ```
 
-**Note**: `i = i + 1` can be written `i++`.
+>***Note***: `i = i + 1` can be written `i++`.
 
 
 ---
