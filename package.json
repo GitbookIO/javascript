@@ -1,7 +1,6 @@
 {
     "name": "Javascript",
     "version": "1.0.2",
-    "description": "",
     "repository": {
         "type": "git",
         "url": "https://github.com/GitbookIO/javascript.git"
