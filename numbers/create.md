@@ -8,7 +8,7 @@ Numbers can be created from a constant value:
 // This is a float:
 var a = 1.2;
 
-// This is a integer:
+// This is an integer:
 var b = 10;
 ```
 
