@@ -15,6 +15,7 @@ Other conditional test:
 * ```x > a```: is x bigger than a?
 * ```x < a```: is x less than a?
 * ```x <= a```: is x less than or equal to a?
+* ```x >=a```: is x greater than or equal to a?
 * ```x != a```: is x not a?
 * ```x```: does x exist?
 
@@ -44,3 +45,10 @@ assert(a === 10);
 ```
 
 ---
+##Logical Comparison
+ In order to avoid the if-else hassle, simple logical comparisons can be utilised.
+ 
+```js
+var topper = (marks > 85) ? "YES" : "NO";
+```
+In the above example, `?` is a logical operator. The code says that if the value of marks is greater than 85 i.e. `marks > 85` , then `topper = YES` ; otherwise `topper = NO` . Basically, if the comparison condition proves true, the first argument is accessed and if the comparison condition is false , the second argument is accessed.
