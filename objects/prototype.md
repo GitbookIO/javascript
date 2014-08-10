@@ -9,7 +9,7 @@ var adult = {age: 26},
     retrievedProperty = adult.age;
  // The line above
 ```
-Firsty, the interpreter looks through every property the object itself has. For example, `adult` has only one own property — `age`. But besides that one it actually has a few more properties, which were inherited from Object.prototype.
+First, the interpreter looks through every property the object itself has. For example, `adult` has only one own property — `age`. But besides that one it actually has a few more properties, which were inherited from Object.prototype.
 ```js
 var stringRepresentation = adult.toString();
  // the variable has value of '[object Object]'

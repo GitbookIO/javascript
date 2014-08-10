@@ -1,5 +1,5 @@
 # Global footprint
-If you are developing an module, which might be running on a web page, which also runs other mudules, then you must beware the variable name overlapping.
+If you are developing a module, which might be running on a web page, which also runs other modules, then you must beware the variable name overlapping.
 
 Suppose we are developing a counter module:
 ```js
