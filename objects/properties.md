@@ -22,7 +22,7 @@ The following code demonstates how to **get** a property's value.
 var variable = language.name;
  // variable now contains "JavaScript" string.
     variable = language['name'];
- /* The lines above do the same thing. The difference is that the second one lets you use litteraly any string as a property name, but it's less readable. */
+ // The lines above do the same thing. The difference is that the second one lets you use litteraly any string as a property name, but it's less readable. 
     variable = language.newProperty; 
  // variable is now undefined, because we have not assigned this property yet.
 ```
