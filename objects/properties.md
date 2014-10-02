@@ -11,7 +11,7 @@ var language = {
     },
  // Yes, objects can be nested!
     getAuthorFullName: function(){
-        return this.author.firstName + this.author.lastName;    
+        return this.author.firstName + " " + this.author.lastName;    
     }
  // Yes, functions can be values too!
 };
