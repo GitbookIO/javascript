@@ -4,11 +4,11 @@ If you are developing a module, which might be running on a web page, which also
 Suppose we are developing a counter module:
 ```js
 var myCounter = {
-    number = 0,
-    plusPlus = function(){
-        this.number = this.number + 1;
+    number : 0,
+    plusPlus : function(){
+        this.number : this.number + 1;
     },
-    isGreaterThanTen = function(){
+    isGreaterThanTen : function(){
         return this.number > 10;
     }
 }
