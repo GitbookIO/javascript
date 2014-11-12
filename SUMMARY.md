@@ -19,7 +19,7 @@
     * [Comparators](conditional/comparators.md)
     * [Concatenate](conditional/concatenate.md)
 * [Arrays](arrays/README.md)
-    * [Indicies](arrays/indicies.md)
+    * [Indices](arrays/indices.md)
     * [Length](arrays/length.md)
 * [Loops](loops/README.md)
     * [For](loops/for.md)
