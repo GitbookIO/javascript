@@ -15,7 +15,7 @@ var stringRepresentation = adult.toString();
  // the variable has value of '[object Object]'
 ```
 
-`toString` is an Object.prototype's property, which was inhereted. It has a value of a function, which returns a string representation of the object. If you want it to return a more meaningful representation, then you can override it. Simply add a new property to the adult object.
+`toString` is an Object.prototype's property, which was inherited. It has a value of a function, which returns a string representation of the object. If you want it to return a more meaningful representation, then you can override it. Simply add a new property to the adult object.
 
 ```js
 adult.toString = function(){
