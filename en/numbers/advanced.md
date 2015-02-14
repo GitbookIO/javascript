@@ -12,24 +12,16 @@ Some advanced operators can be used, such as:
 
 
 
----
-
+{% exercise %}
 Define a variable `c` as the modulus of the decremented value of `x` by 3.
-
-```js
+{% initial %}
 var x = 10;
 
 var c =
-```
-
-```js
+{% solution %}
 var x = 10;
 
 var c = (--x) % 3;
-```
-
-```js
+{% validation %}
 assert(c === 0);
-```
-
----
+{% endexercise %}

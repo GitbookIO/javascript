@@ -19,29 +19,21 @@ for(var i = 0; i < 10; i = i + 1){
 >***Note***: `i = i + 1` can be written `i++`.
 
 
----
-
+{% exercise %}
 Using a for-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) from 0 to 99.
-
-```js
+{% initial %}
 var message = "";
-```
-
-```js
+{% solution %}
 var message = "";
 
 for(var i = 0; i < 100; i++){
     message = message + i;
 }
-```
-
-```js
+{% validation %}
 var message2 = ""
 
 for(var i = 0; i < 100; i++){
     message2 = message2 + i;
 }
 assert(message === message2);
-```
-
----
+{% endexercise %}

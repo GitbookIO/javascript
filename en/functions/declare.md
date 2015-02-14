@@ -18,27 +18,16 @@ var double = function(x) {
 };
 ```
 
->*Note:* the function above **may not** be referenced before it is defined, just like any other variable. 
+>*Note:* the function above **may not** be referenced before it is defined, just like any other variable.
 
----
-
+{% exercise %}
 Declare a function named `triple` that takes an argument and returns its triple.
-
-```js
-
-```
-
-```js
+{% solution %}
 var triple = function(x) {
     return x * 3;
 }
-```
-
-```js
+{% validation %}
 assert(triple);
 assert(triple(4) === 12);
 assert(triple(10) === 30);
-```
-
----
-
+{% endexercise %}

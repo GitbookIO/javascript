@@ -6,26 +6,18 @@ Concatenation involves adding two or more strings together, creating a larger st
 var bigStr = 'Hi ' + 'JS strings are nice ' + 'and ' + 'easy to add';
 ```
 
----
-
+{% exercise %}
 Add up the different names so that the `fullName` variable contains John's complete name.
-
-```js
+{% initial %}
 var firstName = "John";
 var lastName = "Smith";
 
 var fullName =
-```
-
-```js
+{% solution %}
 var firstName = "John";
 var lastName = "Smith";
 
 var fullName = firstName + " " + lastName;
-```
-
-```js
+{% validation %}
 assert(fullName === 'John Smith');
-```
-
----
+{% endexercise %}

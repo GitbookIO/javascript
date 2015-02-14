@@ -9,23 +9,16 @@ var array = [1 , 2, 3];
 var l = array.length;
 ```
 
----
-
+{% exercise %}
 Define the variable a to be the number value of the length of the array
-
-```js
+{% initial %}
 var array = [1, 1, 2, 3, 5, 8];
 var l = array.length;
-var a = 
-```
-
-```js
+var a =
+{% solution %}
 var array = [1, 1, 2, 3, 5, 8];
 var l = array.length;
 var a = 6;
-```
-
-```js
-assert (a === 6) 
-```
----
+{% validation %}
+assert (a === 6)
+{% endexercise %}

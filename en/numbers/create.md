@@ -19,24 +19,15 @@ var a = 2;
 var b = a;
 ```
 
-
----
-
+{% exercise %}
 Create a variable `x` which equals `10` and create a variable `y` which equals `a`.
-
-```js
+{% initial %}
 var a = 11;
-```
-
-```js
+{% solution %}
 var a = 11;
 
 var x = 10;
 var y = a;
-```
-
-```js
+{% validation %}
 assert(x === 10 && y === a);
-```
-
----
+{% endexercise %}

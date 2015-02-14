@@ -30,15 +30,11 @@ do {
 **Note**: Be careful to avoid infinite looping if the condition is always true!
 
 
----
-
+{% exercise %}
 Using a while-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) as long as its length (`message.length`) is less than 100.
-
-```js
+{% initial %}
 var message = "";
-```
-
-```js
+{% solution %}
 var message = "";
 var i = 0;
 
@@ -46,9 +42,7 @@ while (message.length < 100) {
     message = message + i;
     i = i + 1;
 }
-```
-
-```js
+{% validation %}
 var message2 = "";
 var i2 = 0;
 
@@ -57,6 +51,4 @@ while (message2.length < 100) {
     i2 = i2 + 1;
 }
 assert(message === message2);
-```
-
----
+{% endexercise %}
