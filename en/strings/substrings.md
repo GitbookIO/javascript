@@ -1,7 +1,7 @@
-#Substrings
+# Substrings
 
-substring is used to take a part of a string. 
-Syntax:  substring(first_index,last_index). 
+substring is used to take a part of a string.
+Syntax:  substring(first_index,last_index).
 
 ```js
 var a = 'Hello world!';
@@ -18,8 +18,8 @@ This gives the whole string from the character with index 2. ``` 'llo world!'```
 
 ##substr
 
-There is also a method substr() that works slightly differently. Instead of the second number being an index number, 
-it gives the number of characters. 
+There is also a method substr() that works slightly differently. Instead of the second number being an index number,
+it gives the number of characters.
 ```js
 var a = 'Hello world!';
 document.write(a.substr(1,6));

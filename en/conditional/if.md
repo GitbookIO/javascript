@@ -33,28 +33,20 @@ var message = 'this is ' + country + ', the weather is ' +
 
 **Note:** Conditions can also be nested.
 
----
-
+{% exercise %}
 Fill up the value of `name` to validate the condition.
-
-```js
+{% initial %}
 var name =
 
 if (name === "John") {
 
 }
-```
-
-```js
+{% solution %}
 var name = "John";
 
 if (name === "John") {
 
 }
-```
-
-```js
+{% validation %}
 assert(name === "John");
-```
-
----
+{% endexercise %}

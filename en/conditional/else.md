@@ -25,11 +25,9 @@ if(country === 'England') {
 ```
 
 
----
-
+{% exercise %}
 Fill up the value of `name` to validate the `else` condition.
-
-```js
+{% initial %}
 var name =
 
 if (name === "John") {
@@ -37,9 +35,7 @@ if (name === "John") {
 } else if (name === "Aaron") {
     // Valid this condition
 }
-```
-
-```js
+{% solution %}
 var name = "Aaron";
 
 if (name === "John") {
@@ -47,10 +43,6 @@ if (name === "John") {
 } else if (name === "Aaron") {
     // Valid this condition
 }
-```
-
-```js
+{% validation %}
 assert(name === "Aaron");
-```
-
----
+{% endexercise %}

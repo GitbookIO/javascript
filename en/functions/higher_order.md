@@ -88,11 +88,9 @@ double(3); // => 6
 triple(3); // => 9
 ```
 
----
-
+{% exercise %}
 Define a function named `negate` that takes `add1` as argument and returns a function, that returns the negation of the value returned by `add1`. (Things get a bit more complicated ;) )
-
-```js
+{% initial %}
 var add1 = function (x) {
     return x + 1;
 };
@@ -105,9 +103,7 @@ var negate = function(func) {
 // Because (5+1) * -1 = -6
 negate(add1)(5);
 
-```
-
-```js
+{% solution %}
 var add1 = function (x) {
     return x + 1;
 }
@@ -119,10 +115,6 @@ var negate = function(func) {
 }
 
 negate(add1)(5);
-```
-
-```js
+{% validation %}
 assert(negate(add1)(5) === -6);
-```
-
----
+{% endexercise %}

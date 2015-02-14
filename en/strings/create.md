@@ -19,20 +19,10 @@ In Javascript, Strings can contain UTF-8 characters:
 
 **Note:** Strings can not be subtracted, multiplied or divided.
 
----
-
+{% exercise %}
 Create a variable named `str` set to the value `"abc"`.
-
-```js
-
-```
-
-```js
+{% solution %}
 var str = 'abc';
-```
-
-```js
+{% validation %}
 assert(str === 'abc');
-```
-
----
+{% endexercise %}
