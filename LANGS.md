@@ -1,3 +1,3 @@
 # Language
 
-* [English](./en)
+* [English](en)
