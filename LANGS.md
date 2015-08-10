@@ -1,3 +1,0 @@
-# Language
-
-* [English](en)
