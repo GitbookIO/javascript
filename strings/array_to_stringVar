@@ -1,0 +1,17 @@
+var movie = new Array("Inception", "Prometheus", "Dark", "Oblivion", "Maleficient");
+var string1= movie.join();  //join is a method which takes every element of array and convert it into a string ; every element of array is 
+                            //by default separated by ','.
+document.write(string1);
+
+
+OUTPUT:Inception,Prometheus,Dark,Oblivion,Maleficient
+
+NOTE: we can also separate the array elements by our choice's separator instead of default separator ',' ; simply by passing that separator 
+as a parameter to join method in quotation mark.
+
+eg:
+  var string1= movie.join("-");  
+  document.write(string1);
+
+
+OUTPUT:Inception-Prometheus-Dark-Oblivion-Maleficient
