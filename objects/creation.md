@@ -1,5 +1,5 @@
 # Creation
-There are two ways to create an `object` in JavaScript:
+There are three ways to create an `object` in JavaScript:
 
 1. literal
 
@@ -10,10 +10,18 @@ There are two ways to create an `object` in JavaScript:
     ```
     > ***Note:*** this is the **recomended** way.
 
-2. and object-oriented
+2. object-oriented
 
     ```js
     var object = new Object();
 
     ```
     > ***Note:*** it's almost like Java.
+3. using object.create
+
+    ```js
+    var object = Object.create(proto[, propertiesObject]);
+
+    ```
+    > ***Note:*** The Object.create() method creates a new object with the specified prototype object and properties.
+    
