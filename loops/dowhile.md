@@ -4,10 +4,10 @@ The do...while statement creates a loop that executes a specified statement unti
 Syntax for do... while is 
 
 ```javascript
-do{
+do {
     // statement
 }
-while(expression) ; 
+while (expression); 
 ```
 
 Lets for example see how to print numbers less than 10 using `do...while` loop:
