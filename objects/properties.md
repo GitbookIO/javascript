@@ -17,7 +17,7 @@ var language = {
 };
 
 ```
-The following code demonstates how to **get** a property's value.
+The following code demonsrtates how to **get** a property's value.
 ```js
 var variable = language.name;
  // variable now contains "JavaScript" string.
