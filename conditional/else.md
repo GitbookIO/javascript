@@ -16,10 +16,13 @@ The `else` clause can be joined with another `if`. Lets remake the example from 
 
 ```javascript
 if(country === 'England') {
+console.log ("you love tea!")
     ...
 } else if(country === 'France') {
+console.log ("you love the great wine")
     ...
 } else if(country === 'Germany') {
+console.log ("The best sausage")
     ...
 }
 ```
