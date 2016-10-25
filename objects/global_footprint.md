@@ -6,7 +6,7 @@ Suppose we are developing a counter module:
 var myCounter = {
     number : 0,
     plusPlus : function(){
-        this.number : this.number + 1;
+        this.number = this.number + 1;
     },
     isGreaterThanTen : function(){
         return this.number > 10;
