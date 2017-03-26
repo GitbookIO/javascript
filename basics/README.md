@@ -1,6 +1,6 @@
 # Basics about Programming
 
-In this first chapter, we'll learn the basics of programming and the Javascript language.
+In this first chapter, we'll learn the basics of programming and the JavaScript language.
 
 Programming means writing code. A book is made up of chapters, paragraphs, sentences, phrases, words and finally punctuation and letters, likewise a program can be broken down into smaller and smaller components. For now, the most important is a statement. A statement is analogous to a sentence in a book. On its own, it has structure and purpose, but without the context of the other statements around it, it isn't that meaningful.
 

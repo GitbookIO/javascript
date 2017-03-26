@@ -1,6 +1,6 @@
 # Length
 
-It's easy in Javascript to know how many characters are in string using the property `.length`.
+It's easy in JavaScript to know how many characters are in string using the property `.length`.
 
 ```js
 // Just use the property .length

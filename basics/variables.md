@@ -41,7 +41,7 @@ y = 5
 
 The same is true for programming languages. In programming, variables are containers for values that change. Variables can hold all kind of values and also the results of computations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
 
-Let's check out how it works in Javascript, The following code defines two variables, computes the result of adding the two and defines this result as a value of a third variable.
+Let's check out how it works in JavaScript, The following code defines two variables, computes the result of adding the two and defines this result as a value of a third variable.
 
 ```js
 var x = 5;
