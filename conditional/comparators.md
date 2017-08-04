@@ -8,16 +8,16 @@ if (country === "France") {
 }
 ```
 
-The conditional part is the variable `country` followed by the three equal signs (`===`). Three equal signs tests if the variable `country` has both the correct value (`France`) and also the correct type (`String`). You can test conditions with double equal signs, too, however a conditional such as `if (x == 5)` would then return true for both `var x = 5;` and `var x = "5";`. Depending on what your program is doing, this could make quite a difference.  It is highly recommended as a best practice that you always compare equality with three equal signs (`===` and `!==`) instead of two (`==` and `!=`).
+The conditional part is the variable `country` followed by the three equal signs (`===`). Three equal signs tests if the variable `country` has both the correct value (`France`) and also the correct type (`String`). You can test conditions with double equal signs, too, however a conditional such as `if (x == 5)` would then return true for both `var x = 5;` and ``var x = '5';``. Depending on what your program is doing, this could make quite a difference.  It is highly recommended as a best practice that you always compare equality with three equal signs (`===` and `!==`) instead of two (`==` and `!=`).
 
 Other conditional test:
 
-* ```x > a```: is x bigger than a?
-* ```x < a```: is x less than a?
-* ```x <= a```: is x less than or equal to a?
-* ```x >=a```: is x greater than or equal to a?
-* ```x != a```: is x not a?
-* ```x```: does x exist?
+* `x > a`: is x bigger than a?
+* `x < a`: is x less than a?
+* `x <= a`: is x less than or equal to a?
+* `x >=a`: is x greater than or equal to a?
+* `x != a`: is x not a?
+* `x`: does x exist?
 
 
 {% exercise %}

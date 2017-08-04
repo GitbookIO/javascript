@@ -1,23 +1,22 @@
 # Higher Order Functions
 
-Higher order functions are functions that manipulate other functions.
-For example, a function can take other functions as arguments and/or produce a function as its return value.
-Such *fancy* functional techniques are powerful constructs available to you in JavaScript and other high-level languages like python, lisp, etc.
+Higher order functions are functions that manipulate other functions. For example, a function can take other functions as arguments and/or produce a function as its return value. Such *fancy* functional techniques are powerful constructs available to you in JavaScriptm as well as in other high-level languages like Python and Lisp.
 
-We will now create two simple functions, `add_2` and `double`, and a higher order function called `map`. `map` will accept two arguments, `func` and `list` (its declaration will therefore begin `map(func,list)`), and return an array. `func` (the first argument) will be a function that will be applied to each of the elements in the array `list` (the second argument).
+We will now create two simple functions, `add_2` and `double`, and a higher order function called `map`. The function `map` will accept two arguments, `func` and `list` (its declaration will therefore begin `map(func,list)`), and return an array. The function `func` (the first argument) will be applied to each of the elements in the array `list` (the second argument).
 
 ```javascript
 // Define two simple functions
 var add_2 = function(x) {
     return x + 2;
 };
+
 var double = function(x) {
     return 2 * x;
 };
 
-// map is cool function that accepts 2 arguments:
-//  func    the function to call
-//  list    a array of values to call func on
+// map is a cool function that accepts 2 arguments:
+//    func    the function to call
+//    list    a array of values to call func on
 var map = function(func, list) {
     var output=[];              // output list
     for(idx in list) {
@@ -25,7 +24,6 @@ var map = function(func, list) {
     }
     return output;
 }
-
 
 // We use map to apply a function to an entire list
 // of inputs to "map" them to a list of corresponding outputs
@@ -48,8 +46,7 @@ process_add_2([5,6,7]) // => [7, 8, 9]
 process_double([5,6,7]) // => [10, 12, 14]
 ```
 
-Now let's create a function called `buildProcessor` that takes a function `func` as input
-and returns a `func`-processor, that is, a function that applies `func` to each input in list.
+Now let's create a function called `buildProcessor` that takes a function `func` as input and returns a `func` processor, that is, a function that applies `func` to each input in list.
 
 ```javascript
 // a function that generates a list processor that performs
@@ -72,7 +69,7 @@ process_double([5,6,7]) // => [10, 12, 14]
 
 
 Let's look at another example.
-We'll create a function called `buildMultiplier` that takes a number `x` as input and returns a function that multiplies its argument by `x` :
+We'll create a function called `buildMultiplier` that takes a number (`x`) as input and returns a function that multiplies its argument by that number:
 
 ```javascript
 var buildMultiplier = function(x) {
@@ -91,7 +88,7 @@ triple(3); // => 9
 {% exercise %}
 Define a function named `negate` that takes `add1` as argument and returns a function, that returns the negation of the value returned by `add1`. (Things get a bit more complicated ;) )
 {% initial %}
-var add1 = function (x) {
+var add1 = function(x) {
     return x + 1;
 };
 
@@ -104,7 +101,7 @@ var negate = function(func) {
 negate(add1)(5);
 
 {% solution %}
-var add1 = function (x) {
+var add1 = function(x) {
     return x + 1;
 }
 

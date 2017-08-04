@@ -1,7 +1,7 @@
 # Do...While Loop
 
 The do...while statement creates a loop that executes a specified statement until the test condition evaluates to be false. The condition is evaluated after executing the statement. 
-Syntax for do... while is 
+Syntax for do...while is 
 
 ```javascript
 do{
@@ -10,7 +10,7 @@ do{
 while(expression) ; 
 ```
 
-Lets for example see how to print numbers less than 10 using `do...while` loop:
+Let's look at the following example to see how to print numbers less than 10 using a `do...while` loop:
 
 ```
 var i = 0;
@@ -20,7 +20,7 @@ do {
 } while (i < 10);
 ```
 
->***Note***: `i = i + 1` can be written `i++`.
+***Note***: `i = i + 1` can be written `i++`.
 
 
 {% exercise %}
