@@ -1,6 +1,6 @@
 # Length
 
-Arrays have a property called length, and it's pretty much exactly as it sounds, it's the length of the array.
+Arrays have a property called length, and it's pretty much exactly as it sounds. The length property is the length of the array.
 
 ```javascript
 var array = [1 , 2, 3];
