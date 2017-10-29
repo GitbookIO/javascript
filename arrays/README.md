@@ -1,6 +1,6 @@
 # Arrays
 
-Arrays are a fundamental part of programming. An array is a list of data. We can store a lot of data in one variable, which makes our code more readable and easier to understand. It also makes it much easier to perform functions on related data.
+Arrays are a fundamental part of programming.An array is a special variable, which can hold more than one value at a time also it is true that an array is a list of data. We can store a lot of data in one variable, which makes our code more readable and easier to understand. It also makes it much easier to perform functions on related data.
 
 The data in arrays are called **elements**.
 
