@@ -5,4 +5,5 @@ This book will teach you the basics of programming and Javascript. Whether you a
 
 ![Screen](./assets/intro.png)
 
-JavaScript (*JS for short*) is the programming language that enables web pages to respond to user interaction beyond the basic level. It was created in 1995, and is today one of the most famous and used programming languages.
+JavaScript (*JS for short*) is the programming language that enables web pages to respond to user interaction beyond the basic level. It was created in 1995, and is today one of the most f
+\amous and used programming languages.
