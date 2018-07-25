@@ -9,4 +9,12 @@ Here is a simple array:
 ```javascript
 // 1, 1, 2, 3, 5, and 8 are the elements in this array
 var numbers = [1, 1, 2, 3, 5, 8];
+
+numbers.length //returns 6
+
+//add new element to the numbers 
+numbers.push(9) //returns [1, 1, 2, 3, 5, 8, 9]
+
+//remove last element
+numbers.pop() // returns [1, 1, 2, 3, 5, 8]
 ```
