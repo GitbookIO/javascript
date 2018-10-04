@@ -10,3 +10,11 @@ Here is a simple array:
 // 1, 1, 2, 3, 5, and 8 are the elements in this array
 var numbers = [1, 1, 2, 3, 5, 8];
 ```
+Here is a simple 2-d array:
+
+
+var items = [
+  [1, 2],
+  [3, 4],
+  [5, 6]
+];
