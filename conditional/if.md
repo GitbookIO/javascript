@@ -26,9 +26,8 @@ if(country === 'Germany') {
     currency = 'funny, small and colourful';
 }
 
-var message = 'this is ' + country + ', the weather is ' +
-            weather + ', the food is ' + food + ' and the ' +
-            'currency is ' + currency;
+var message = `this is ${country}, the weather is ${weather}, the food is ${food} and the currency is ${currency}`;
+
 ```
 
 **Note:** Conditions can also be nested.
