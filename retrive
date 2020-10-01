@@ -1,0 +1,17 @@
+**How To Retrive Elements From An Array**
+
+* Basically in array index play an important role. So We can retrive elements by using its index. For that we use for loop to retrive the data.
+* There are different types of loops avaliable like **forEach**, **for in**,**fro of** etc.
+
+* Example
+      
+         let a=['hello',12,'hii',32.0];
+         for(int i=0;i<a.length;i++)
+              {
+                    document.write(a[i]);
+              }
+              
+**Document**
+* Document refer to the the interfae of your browser and we are going to write the data on the document.
+
+  
