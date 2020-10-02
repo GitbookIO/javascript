@@ -15,6 +15,7 @@ doThing(cars[4]);
 You can write:
 
 ```javascript
+//looping in javascript
 for (var i=0; i < cars.length; i++) { 
     doThing(cars[i]);
 }
