@@ -8,5 +8,5 @@ Here is a simple array:
 
 ```javascript
 // 1, 1, 2, 3, 5, and 8 are the elements in this array
-var numbers = [1, 1, 2, 3, 5, 8];
+var numbers = [1, 1, 2, 3, 5, 8]
 ```
