@@ -12,7 +12,7 @@ while(expression) ;
 
 Lets for example see how to print numbers less than 10 using `do...while` loop:
 
-```
+```javascript
 var i = 0;
 do {
     document.write(i + " ");
