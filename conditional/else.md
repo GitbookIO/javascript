@@ -5,25 +5,24 @@ There is also an `else` clause that will be applied when the first condition isn
 ```javascript
 var umbrellaMandatory;
 
-if(country === 'England'){
-    umbrellaMandatory = true;
+if (country === "England") {
+  umbrellaMandatory = true;
 } else {
-    umbrellaMandatory = false;
+  umbrellaMandatory = false;
 }
 ```
 
 The `else` clause can be joined with another `if`. Lets remake the example from the previous article:
 
 ```javascript
-if(country === 'England') {
-    ...
-} else if(country === 'France') {
-    ...
-} else if(country === 'Germany') {
-    ...
+if (country === "England") {
+  ...
+} else if (country === "France") {
+  ...
+} else if (country === "Germany") {
+  ...
 }
 ```
-
 
 {% exercise %}
 Fill up the value of `name` to validate the `else` condition.
@@ -33,7 +32,7 @@ var name =
 if (name === "John") {
 
 } else if (name === "Aaron") {
-    // Valid this condition
+// Valid this condition
 }
 {% solution %}
 var name = "Aaron";
@@ -41,7 +40,7 @@ var name = "Aaron";
 if (name === "John") {
 
 } else if (name === "Aaron") {
-    // Valid this condition
+// Valid this condition
 }
 {% validation %}
 assert(name === "Aaron");
