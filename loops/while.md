@@ -18,15 +18,6 @@ while (i < 5) {
 }
 ```
 
-The Do/While Loop is a variant of the while loop. This loop will execute the code block once before checking if the condition is true. It then repeats the loop as long as the condition is true:
-
-```javascript
-do {
-    // code block to be executed
-} while (condition);
-```
-
-
 **Note**: Be careful to avoid infinite looping if the condition is always true!
 
 
