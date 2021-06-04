@@ -4,7 +4,7 @@ You can define strings in JavaScript by enclosing the text in single quotes or d
 
 ```js
 // Single quotes can be used
-var str = "Our lovely string";
+var str = 'Our lovely string';
 
 // Double quotes as well
 var otherStr = "Another nice string";
