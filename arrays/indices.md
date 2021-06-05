@@ -14,21 +14,25 @@ var banana = fruits[1];
 
 {% exercise %}
 Define the variables using the indices of the array
+
 {% initial %}
 var cars = ["Mazda", "Honda", "Chevy", "Ford"]
 var honda =
 var ford =
 var chevy =
 var mazda =
+
 {% solution %}
 var cars = ["Mazda", "Honda", "Chevy", "Ford"]
 var honda = cars[1];
 var ford = cars[3];
 var chevy = cars[2];
 var mazda = cars[0];
+
 {% validation %}
 assert(honda === "Honda");
 assert(ford === "Ford");
 assert(chevy === "Chevy");
 assert(mazda === "Mazda");
+
 {% endexercise %}
