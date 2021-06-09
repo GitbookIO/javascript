@@ -48,3 +48,43 @@ var x = 5;
 var y = 6;
 var result = x + y;
 ```
+## ES6 version
+Now jump to ES6 version of javaScrip.
+In ES6 we have three ways of declaring variables
+
+```
+var x = 5;
+const y = 'Test';
+let z = true;
+```
+The types of declaration depends upon the scope.
+Unlike the "var" keyword , which defines a variable globally or locally to an entire function regardless of block scope, "let" allows you to declare variables that are limited in scope to the block , statement or expression in which they are used.
+FOR Example:
+```
+function varTest(){
+    var x=1;
+    if(true){
+        var x=2; // same variable
+        console.log(x); //2
+    }
+    console.log(x); //2
+}
+```
+```
+function letTest(){
+    let x=1;
+    if(true){
+        let x=2;
+        console.log(x); // 2
+    }
+    console.log(x); // 1
+}
+```
+Now the third variable type is "const".
+const variables are immutable - they are not allowed to re-assigned.
+For Example:
+```
+const x = "hi!";
+x = "bye"; // this will occurs an error 
+```
+
