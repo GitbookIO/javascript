@@ -4,27 +4,27 @@ Functions, like variables, must be declared. Let's declare a function `double` t
 
 ```javascript
 function double(x) {
-    return 2 * x;
+  return 2 * x;
 }
 ```
 
->*Note:* the function above **may** be referenced before it has been defined.
+> _Note:_ the function above **may** be referenced before it has been defined.
 
 Functions are also values in JavaScript; they can be stored in variables (just like numbers, strings, etc ...) and given to other functions as arguments :
 
 ```javascript
-var double = function(x) {
-    return 2 * x;
+var double = function (x) {
+  return 2 * x;
 };
 ```
 
->*Note:* the function above **may not** be referenced before it is defined, just like any other variable.
+> _Note:_ the function above **may not** be referenced before it is defined, just like any other variable.
 
 {% exercise %}
 Declare a function named `triple` that takes an argument and returns its triple.
 {% solution %}
 var triple = function(x) {
-    return x * 3;
+return x \* 3;
 }
 {% validation %}
 assert(triple);
