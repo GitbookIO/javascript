@@ -8,8 +8,8 @@ JavaScript (_JS for short_) is the programming language that enables web pages t
 
 Book comprise the following topics sequenced
 1. [Basics](https://github.com/akramnarejo/javascript/tree/fix-readme/basics)
-2. Data Type Objects
-    * [Numbers](https://github.com/akramnarejo/javascript/tree/fix-readme/numbers)
-    * [Strings](https://github.com/akramnarejo/javascript/tree/fix-readme/numbers)
-    * [Objects](https://github.com/akramnarejo/javascript/tree/fix-readme/numbers)
+2. [Data Types]()
+  * [numbers](https://github.com/akramnarejo/javascript/tree/fix-readme/numbers)
+  * [strings](https://github.com/akramnarejo/javascript/tree/fix-readme/numbers)
+  * [objects](https://github.com/akramnarejo/javascript/tree/fix-readme/numbers)
 3. [Loops]()
