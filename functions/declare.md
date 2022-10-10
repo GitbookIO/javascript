@@ -1,6 +1,6 @@
 # Declaring Functions
 
-Functions, like variables, must be declared. Let's declare a function `double` that accepts an **argument** called `x` and **returns** the double of x :
+Functions are declared like variables. Let's declare a function `double` that accepts an **argument** called `x` and **returns** the double of x :
 
 ```javascript
 function double(x) {
