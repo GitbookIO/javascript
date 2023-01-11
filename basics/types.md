@@ -30,3 +30,5 @@ var a;
 {% validation %}
 a;
 {% endexercise %}
+
+var a;
