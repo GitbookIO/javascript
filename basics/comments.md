@@ -4,14 +4,14 @@ Comments are statements that will not be executed by the interpreter, comments a
 
 In Javascript, comments can be written in 2 different ways:
 
-- Line starting with `//`:
+- Line starting with `//` (used for single-line comment):
 
 ```javascript
 // This is a comment, it will be ignored by the interpreter
 var a = "this is a variable defined in a statement";
 ```
 
-- Section of code starting with `/*`and ending with `*/`, this method is used for multi-line comments:
+- Section of code starting with `/*`and ending with `*/` (used for multi-line comments): 
 
 ```javascript
 /*
