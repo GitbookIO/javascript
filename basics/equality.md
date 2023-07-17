@@ -11,6 +11,13 @@ var foo = 42;
 var bar = 42;
 var baz = "42";
 var qux = "life";
+
+// Another Example of `===`
+var abc = 101;
+var def = "101";
+// CASE 1 :  `==`
+```In case 1 output will be true because "==" operator only checks var are equal
+Case 2: '===' this operators also check its type(datatype). In our case abc is integer and def is a string so output will be false.```
 ```
 
 `foo == bar` will evaluate to `true` and `baz == qux` will evaluate to `false`, as one would expect. However, `foo == baz` will _also_ evaluate to `true` despite `foo` and `baz` being different types. Behind the scenes the `==` equality operator attempts to force its operands to the same type before determining their equality. This is in contrast to the `===` equality operator.

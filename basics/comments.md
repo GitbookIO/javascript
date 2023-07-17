@@ -6,6 +6,11 @@ In Javascript, comments can be written in 2 different ways:
 
 - Line starting with `//`:
 
+Keyboard Shortcuts for commenting a line :
+ For Windows (Single Line Comment) --> Ctrl + /
+ For Windows (Multi Line Comment) --> Shift +Alt +A
+ For Mac --> Command + / 
+
 ```javascript
 // This is a comment, it will be ignored by the interpreter
 var a = "this is a variable defined in a statement";
