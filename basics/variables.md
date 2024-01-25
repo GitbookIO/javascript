@@ -48,3 +48,49 @@ var x = 5;
 var y = 6;
 var result = x + y;
 ```
+
+In JavaScript, you can declare variables using var, let, or const. Each of these keywords has slightly different behaviors, and their usage depends on the scope and mutability requirements.
+
+- Use `var` if you need function-scoping (though it's less commonly used in modern JavaScript).
+```js 
+function exampleVar() {
+  if (true) {
+    var x = 5;
+    console.log(x); // Outputs 5
+  }
+  console.log(x); // Outputs 5
+  x = 10; // Reassigns x
+  console.log(x); // Outputs 10
+}
+
+exampleVar();
+```
+
+
+- Use `let` for variables that need to be reassigned and have block scope.
+```js
+function exampleLet() {
+  if (true) {
+    let y = 20;
+    console.log(y); // Outputs 20
+  }
+  // console.log(y); // ReferenceError: y is not defined
+  // y = 30; // Error: y is not defined
+}
+
+exampleLet();
+
+```
+
+- Use `const` for variables that should not be reassigned and also have block scope.
+```js
+function exampleConst() {
+  const z = 30;
+  console.log(z); // Outputs 30
+  // z = 40; // Error: Assignment to a constant variable
+  // const w; // Error: Missing initializer in const declaration
+}
+
+exampleConst();
+
+```
