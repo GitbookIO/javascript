@@ -21,6 +21,8 @@ The most common types are:
 
 - **undefined**: the undefined value is obtained when you use an object property that does not exist, or a variable that has been declared, but has no value assigned to it.
 
+- **BigInt**: BigInt values in JavaScript are used to represent large numeric values that cannot be accommodated by the number primitive. They are created by adding (n) to the end of an integer literal or by using the BigInt() function with an integer or string value.
+
 JavaScript is a _“loosely typed”_ language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the `var` keyword to indicate that you are declaring a variable, and the interpreter will work out what data type you are using from the context, and use of quotes.
 
 {% exercise %}
