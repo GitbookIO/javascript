@@ -1,0 +1,12 @@
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark h1, .dark h2, .dark h3 {
+  color: #ffffff;
+}
+
+.dark a {
+  color: #90caf9;
+}
