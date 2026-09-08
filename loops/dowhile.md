@@ -14,7 +14,7 @@ Lets for example see how to print numbers less than 10 using `do...while` loop:
 ```javascript
 var i = 0;
 do {
-  document.write(i + " ");
+  document.write(i + " "); 
   i++; // incrementing i by 1
 } while (i < 10);
 ```
